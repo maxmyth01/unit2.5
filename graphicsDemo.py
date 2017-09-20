@@ -10,7 +10,7 @@ green = Color(0x00FF00,1)
 
 blue = Color(0x0000FF,1)
 
-black = Color(0xFFFFFF,1)
+black = Color(0x000000,1)
 
 blackOutline = LineStyle(1,black) # (pixels,colors)
 
