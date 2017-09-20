@@ -21,9 +21,9 @@ text = TextAsset('Max',fill=green,style='bold 40pt Times')
 Sprite(redRectangle)
 Sprite(blueCircle,(50,50))
 Sprite(greenEllipse,(200,400))
-sprite(blackLine)
-sprite(redTriangle)
-sprite(text,(300,200))
+Sprite(blackLine)
+Sprite(redTriangle)
+Sprite(text,(300,200))
 
 
 App().run()
