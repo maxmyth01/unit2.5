@@ -18,8 +18,13 @@ redRectangle = RectangleAsset(200,100,blackOutline,red) # (width, height, outlin
 
 blueCircle = CircleAsset(50,blackOutline,blue)
 
+greenEllipse = EllipseAsset(100,50,blackOutline,green)
+
 Sprite(redRectangle)
 
-Sprite(blueCircle)
+Sprite(blueCircle,(50,50))
+
+Sprite(greenEllipse,(200,400))
+
 
 App().run()
