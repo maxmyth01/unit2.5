@@ -4,10 +4,10 @@
 
 from ggame import *
 color = input('Enter a RGB color code')
-color = Color('color',1)
+color = Color(color,1)
 black = Color(0x000000,1)
 
-blackOutline = LineStyle(5,black)
+blackOutline = LineStyle(0.5,black)
 redRectangle = RectangleAsset(1050,700,blackOutline,color)
 
 Sprite(redRectangle)
