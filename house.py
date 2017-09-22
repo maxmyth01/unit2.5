@@ -11,10 +11,14 @@ black = Color(0x000000,1)
 
 blackOutline = LineStyle(5,black)
 redRectangle = RectangleAsset(200,100,blackOutline,red)
-blackTriangle = PolygonAsset([(0,0), (120,180), (60,300)], blackOutline, black)
+blackTriangle = PolygonAsset([(0,0), (200,0), (100,-75)], blackOutline, black)
+blueWindow = RectangleAsset(30,30,blackOutline,blue)
+blackDoor = RectangleAsset(30,75,blackOutline, black)
 
-Sprite(redRectangle)
-Sprite(blackTriangle)
+Sprite(redRectangle,(75,100))
+Sprite(blackTriangle,(75,100))
+Sprite(blueWindow,(200,125))
+Sprite(blackDoor,(125,125))
 
 
 App().run()
