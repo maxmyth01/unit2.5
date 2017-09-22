@@ -8,7 +8,7 @@ color = Color('color',1)
 black = Color(0x000000,1)
 
 blackOutline = LineStyle(5,black)
-redRectangle = RectangleAsset(200,100,blackOutline,color)
+redRectangle = RectangleAsset(1050,700,blackOutline,color)
 
 Sprite(redRectangle)
 
