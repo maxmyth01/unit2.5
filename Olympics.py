@@ -11,11 +11,17 @@ green = Color(0x00FF00,1)
 red = Color(0xFF0000,1)
 
 blackOutline = LineStyle(5,black) # (pixels,colors)
-yellowDiamond = PolygonAsset([(0,0), (-75,150), (0,300), (75,150)], blackOutline, yellow)
-text = TextAsset('Max',fill=blue,style='bold 40pt Times')
+blueCircle = CircleAsset(50,blackOutline,blue) # radius, linestyle,color
+yellowCircle = CircleAsset(50,blackOutline,yellow) # radius, linestyle,color
+blackCircle = CircleAsset(50,blackOutline,black) # radius, linestyle,color
+greenCircle = CircleAsset(50,blackOutline,green) # radius, linestyle,color
+redCircle = CircleAsset(50,blackOutline,red) # radius, linestyle,color
 
-Sprite(yellowDiamond,(350,100))
-Sprite(text,(300,200))
+Sprite(blueCircle,(50,50))
+Sprite(yellowCircle,(50,50))
+Sprite(blackCircle,(50,50))
+Sprite(greenCircle,(50,50))
+Sprite(redCircle,(50,50))
 
 
 App().run()
