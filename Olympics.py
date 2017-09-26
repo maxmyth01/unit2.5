@@ -5,8 +5,10 @@
 from ggame import *
 
 blue = Color(0x0000FF,1)
-black = Color(0x000000,1)
 yellow =Color(0xFFFF00,1)
+black = Color(0x000000,1)
+green = Color(0x00FF00,1)
+red = Color(0xFF0000,1)
 
 blackOutline = LineStyle(5,black) # (pixels,colors)
 yellowDiamond = PolygonAsset([(0,0), (-75,150), (0,300), (75,150)], blackOutline, yellow)
