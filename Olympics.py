@@ -9,13 +9,18 @@ yellow =Color(0xFFFF00,1)
 black = Color(0x000000,1)
 green = Color(0x00FF00,1)
 red = Color(0xFF0000,1)
+white = Color(0x000000,1)
 
+blueOutline = LineStyle(5,blue) # (pixels,colors)
+yellowOutline = LineStyle(5,yellow) # (pixels,colors)
 blackOutline = LineStyle(5,black) # (pixels,colors)
-blueCircle = CircleAsset(50,blackOutline,blue) # radius, linestyle,color
-yellowCircle = CircleAsset(50,blackOutline,yellow) # radius, linestyle,color
-blackCircle = CircleAsset(50,blackOutline,black) # radius, linestyle,color
-greenCircle = CircleAsset(50,blackOutline,green) # radius, linestyle,color
-redCircle = CircleAsset(50,blackOutline,red) # radius, linestyle,color
+greenOutline = LineStyle(5,green) # (pixels,colors)
+redOutline = LineStyle(5,red) # (pixels,colors)
+blueCircle = CircleAsset(50,blackOutline,white) # radius, linestyle,color
+yellowCircle = CircleAsset(50,blackOutline,white) # radius, linestyle,color
+blackCircle = CircleAsset(50,blackOutline,white) # radius, linestyle,color
+greenCircle = CircleAsset(50,blackOutline,white) # radius, linestyle,color
+redCircle = CircleAsset(50,blackOutline,white) # radius, linestyle,color
 
 Sprite(blueCircle,(50,50))
 Sprite(yellowCircle,(50,50))
