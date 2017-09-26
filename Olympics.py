@@ -23,10 +23,10 @@ greenCircle = CircleAsset(50,greenOutline,white) # radius, linestyle,color
 redCircle = CircleAsset(50,redOutline,white) # radius, linestyle,color
 
 Sprite(blueCircle,(50,50))
-Sprite(yellowCircle,(50,50))
-Sprite(blackCircle,(50,50))
-Sprite(greenCircle,(50,50))
-Sprite(redCircle,(50,50))
+Sprite(yellowCircle,(100,100))
+Sprite(blackCircle,(150,50))
+Sprite(greenCircle,(200,100))
+Sprite(redCircle,(250,50))
 
 
 App().run()
