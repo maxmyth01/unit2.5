@@ -9,10 +9,10 @@ black = Color(0x000000,1)
 yellow =Color(0xFFFF00,1)
 
 blackOutline = LineStyle(5,black) # (pixels,colors)
-yellowDiamond = PolygonAsset([(0,0), (-150,300), (0,600), (150,300)], blackOutline, yellow)
+yellowDiamond = PolygonAsset([(0,0), (-75,150), (0,300), (75,150)], blackOutline, yellow)
 text = TextAsset('Max',fill=blue,style='bold 40pt Times')
 
-Sprite(yellowDiamond,(300,200))
+Sprite(yellowDiamond,(350,100))
 Sprite(text,(300,200))
 
 
